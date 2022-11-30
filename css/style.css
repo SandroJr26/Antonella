@@ -1,0 +1,7 @@
+/* Global */
+@import url("./global/container.css");
+@import url("./global/header.css");
+@import url("./global/global.css");
+
+/* Cardápio */
+@import url("./cardapio/cozinha.css");
