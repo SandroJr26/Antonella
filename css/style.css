@@ -5,4 +5,5 @@
 
 /* Cardápio */
 @import url("./cardapio/cozinha.css");
+@import url("./cardapio/pizzaria.css");
 @import url("./cardapio/drinks.css");

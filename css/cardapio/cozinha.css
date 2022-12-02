@@ -1,48 +1,35 @@
-#cardapio-antonella h1 {
-  font-size: 3rem;
-  font-weight: 600;
+h1 {
   margin-bottom: 32px;
-  color: #471614;
+  text-align: center;
 }
 
 #cozinha h2 {
-  font-size: 2.5rem;
-  font-weight: 400;
   margin-bottom: 32px;
-  color: #140202;
 }
 
 #cozinha h3 {
-  font-size: 2rem;
-  font-weight: 400;
-  color: #250303;
   margin-bottom: 12px;
 }
 
 #cozinha .risotos {
-  margin-bottom: 20px;
-}
-
-#cozinha p {
-  font-size: 1.5rem;
-  color: #4b0503;
   margin-bottom: 32px;
 }
 
-.massas-e-arrozes,
-.sobremesas,
-.peixes,
-.carnes {
-  padding-top: 1rem;
+#cozinha p {
+  margin-bottom: 32px;
 }
 
-.header-menu a {
-  color: #ffffff;
-  font-size: 2rem;
+#massas-e-arrozes,
+#sobremesas,
+#peixes,
+#carnes {
+  padding-top: 8px;
 }
 
 .classificacao {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 40px;
@@ -64,8 +51,7 @@
 }
 
 @media (max-width: 800px) {
-  #cardapio-antonella h1 {
-    font-size: 2.5rem;
+  h1 {
     padding-top: 0;
     margin-bottom: 20px;
   }
@@ -73,52 +59,44 @@
     gap: 12px;
     margin-bottom: 20px;
   }
-  #cardapio-antonella h2 {
-    font-size: 2rem;
+  #cardapio-cozinha h2 {
     margin-bottom: 20px;
   }
 
-  #cardapio-antonella h3 {
-    font-size: 1.75rem;
+  #cardapio-cozinha h3 {
     margin-bottom: 8px;
   }
 
-  #cardapio-antonella .risotos {
+  #cardapio-cozinha .risotos {
     margin-bottom: 16px;
   }
 
-  #cardapio-antonella p {
-    font-size: 1rem;
+  #cardapio-cozinha p {
     margin-bottom: 20px;
   }
 }
 
 @media (max-width: 600px) {
-  #cardapio-antonella h1 {
-    font-size: 1.75rem;
+  #cardapio-cozinha h1 {
     margin-bottom: 16px;
   }
   .classificacao {
     gap: 8px;
     margin-bottom: 16px;
   }
-  #cardapio-antonella h2 {
-    font-size: 1.5rem;
+  #cardapio-cozinha h2 {
     margin-bottom: 20px;
   }
 
-  #cardapio-antonella h3 {
-    font-size: 1.25rem;
+  #cardapio-cozinha h3 {
     margin-bottom: 8px;
   }
 
-  #cardapio-antonella .risotos {
+  #cardapio-cozinha .risotos {
     margin-bottom: 16px;
   }
 
-  #cardapio-antonella p {
-    font-size: 0.875rem;
-
+  #cardapio-cozinha p {
     margin-bottom: 20px;
   }
 }
