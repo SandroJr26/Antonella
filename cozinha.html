@@ -19,9 +19,18 @@
       </nav>
     </header>
     <section id="cardapio-antonella" aria-labelledby="section-title-cardapio-antonella">
-      <h1 id="section-title-cardapio-antonella">Cardápio da Cozinha do Antonella!</h1>
-      <section id="cozinha" id="cardapio-cozinha" aria-labelledby="section-title-cardapio-cozinha">
-        <div class="entrada">
+      <h1 id="section-title-cardapio-antonella">Cardápio da Cozinha!</h1>
+      <section id="cozinha" aria-labelledby="section-title-cardapio-cozinha">
+        <nav>
+          <ul class="classificacao">
+            <li><a href="#classicos">Entradas</a></li>
+            <li><a href="#massas-e-arrozes">Massas e arrozes</a></li>
+            <li><a href="#peixes">Peixes</a></li>
+            <li><a href="#carnes">Carnes</a></li>
+            <li><a href="#sobremesas">Sobremesas</a></li>
+          </ul>
+        </nav>
+        <div id="entrada">
           <h2>Entradas</h2>
           <div>
             <h3>Tartar de salmão com creme azedo</h3>
@@ -36,7 +45,7 @@
             <p>Brusquetas de tomate com mussarela, abóbora com ricota e cogumelos.</p>
           </div>
           <div>
-            <h3>Varal de frios</h3>
+            <h3>Tabua de frios</h3>
             <p>Seleção de frios servida com torrada e manteiga de trufa.</p>
           </div>
           <div>
@@ -46,10 +55,6 @@
           <div>
             <h3>Tagliata</h3>
             <p>Laminas de filé mal passado servido com salada de rúcula, parmesão e molho de balsâmico com alecrim.</p>
-          </div>
-          <div>
-            <h3>Gravdlax</h3>
-            <p>Salmão curado, salada de erva doce e torradas.</p>
           </div>
           <div>
             <h3>Salada caprese</h3>
@@ -68,7 +73,7 @@
             <p>Canapés de carne crua, salsa trufada, cebolete e maldon.</p>
           </div>
         </div>
-        <div class="massas-e-arrozes">
+        <div id="massas-e-arrozes">
           <h2>Massas e Arrozes</h2>
           <div>
             <h3>Arroz de polvo</h3>
@@ -90,18 +95,18 @@
             <h3>Fettucine nero</h3>
             <p>Pasta negra servida com camarões, tomate cereja confitado e molho bisque.</p>
           </div>
-          <div>
-            <h3>Risoto de parma, brie e rúcula</h3>
+          <div class="risotos">
+            <h3>Risoto de brie e rúcula</h3>
           </div>
-          <div>
+          <div class="risotos">
             <h3>Risoto de gordonzola com pralinê de noses</h3>
           </div>
-          <div>
-            <h3>Fregola sarda</h3>
-            <p>Massa tipica de sardenha servida com lula e mexilhões.</p>
+          <div class="risotos">
+            <h3>Risoto de frutos do mar</h3>
           </div>
+
         </div>
-        <div class="peixe">
+        <div id="peixes">
           <h2>Peixes</h2>
           <div>
             <h3>Atum selado</h3>
@@ -116,7 +121,7 @@
             <p>Medalão servito com volouté de salsão com alho poro, azeite de manjericão e mix de cogumelos silvestres.</p>
           </div>
         </div>
-        <div class="carne">
+        <div id="carnes">
           <h2>Carnes</h2>
           <div>
             <h3>Filé com risoni</h3>
@@ -142,7 +147,7 @@
             <h3>Cordeiro em baixa temperatura</h3>
             <p>Guarnecido com couscous marroquino.</p>
           </div>
-          <div class="sobremesa">
+          <div id="sobremesas">
             <h2>Sobremesas</h2>
             <div>
               <h3>Tronco de chocolate</h3>
