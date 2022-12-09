@@ -37,9 +37,8 @@
   #cardapio-pizzaria h1 {
     margin-bottom: 16px;
   }
-  .classificacao {
-    gap: 8px;
-    margin-bottom: 16px;
+  .classificacao li {
+    gap: 20px;
   }
   #cardapio-pizzaria h2 {
     margin-bottom: 20px;

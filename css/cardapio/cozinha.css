@@ -52,10 +52,6 @@ h1 {
     padding-top: 0;
     margin-bottom: 20px;
   }
-  .classificacao {
-    gap: 12px;
-    margin-bottom: 20px;
-  }
   #cardapio-cozinha h2 {
     margin-bottom: 20px;
   }
@@ -77,14 +73,9 @@ h1 {
   #cardapio-cozinha h1 {
     margin-bottom: 16px;
   }
-  .classificacao {
-    gap: 8px;
-    margin-bottom: 16px;
-  }
   #cardapio-cozinha h2 {
     margin-bottom: 20px;
   }
-
   #cardapio-cozinha h3 {
     margin-bottom: 8px;
   }
