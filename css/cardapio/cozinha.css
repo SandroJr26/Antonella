@@ -37,7 +37,9 @@ h1 {
 
 .classificacao a {
   color: #ffffff;
-  font-size: 1rem;
+  font-size: 1.25
+  rem;
+  text-transform: uppercase;
   background-color: rgb(97, 20, 20);
   padding: 8px 16px;
   border-radius: 4px;
@@ -51,6 +53,9 @@ h1 {
   h1 {
     padding-top: 0;
     margin-bottom: 20px;
+  }
+  .classificacao a {
+    font-size: 0.875rem;
   }
   #cardapio-cozinha h2 {
     margin-bottom: 20px;
