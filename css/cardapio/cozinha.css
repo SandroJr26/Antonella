@@ -22,7 +22,8 @@ h1 {
 #massas-e-arrozes,
 #sobremesas,
 #peixes,
-#carnes {
+#carnes,
+#kids {
   padding-top: 8px;
 }
 
@@ -37,8 +38,7 @@ h1 {
 
 .classificacao a {
   color: #ffffff;
-  font-size: 1.25
-  rem;
+  font-size: 1.25 rem;
   text-transform: uppercase;
   background-color: rgb(97, 20, 20);
   padding: 8px 16px;
